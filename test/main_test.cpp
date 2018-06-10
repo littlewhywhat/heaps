@@ -1,5 +1,1 @@
-#include "greeter_test.cpp"
-
-TEST_F(GreeterTest, greet) {
-  test_greet();
-}
+// this is a reference point for CMake main_test executable

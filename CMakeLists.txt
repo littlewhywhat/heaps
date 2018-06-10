@@ -32,6 +32,9 @@ if (CMAKE_VERSION VERSION_LESS 2.8.11)
   include_directories("${gtest_SOURCE_DIR}/include")
 endif()
 
+set (CMAKE_CXX_STANDARD 11)
+set (CMAKE_CXX_FLAGS "-Wall -fno-exceptions -pedantic ")
+
 # create and separate lists of necessary sources:
 # - OBJ_SOURCES, MAIN, TEST_SOURCES
 include_directories("include")
